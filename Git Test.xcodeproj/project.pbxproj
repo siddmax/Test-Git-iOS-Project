@@ -21,6 +21,7 @@
 		28540ACF19C2381B00143854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28540AB119C2381A00143854 /* UIKit.framework */; };
 		28540AD719C2381B00143854 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28540AD519C2381B00143854 /* InfoPlist.strings */; };
 		28540AD919C2381B00143854 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28540AD819C2381B00143854 /* Git_TestTests.m */; };
+		28540AE419C23AA900143854 /* SSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 28540AE319C23AA900143854 /* SSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		28540AD419C2381B00143854 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		28540AD619C2381B00143854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28540AD819C2381B00143854 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		28540AE219C23AA900143854 /* SSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTest.h; path = ../SSTest.h; sourceTree = "<group>"; };
+		28540AE319C23AA900143854 /* SSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTest.m; path = ../SSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		28540AB319C2381A00143854 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				28540AE219C23AA900143854 /* SSTest.h */,
+				28540AE319C23AA900143854 /* SSTest.m */,
 				28540ABC19C2381B00143854 /* SSAppDelegate.h */,
 				28540ABD19C2381B00143854 /* SSAppDelegate.m */,
 				28540ABF19C2381B00143854 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28540AC419C2381B00143854 /* SSViewController.m in Sources */,
+				28540AE419C23AA900143854 /* SSTest.m in Sources */,
 				28540ABE19C2381B00143854 /* SSAppDelegate.m in Sources */,
 				28540ABA19C2381A00143854 /* main.m in Sources */,
 			);
